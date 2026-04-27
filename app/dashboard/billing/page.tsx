@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { getToken } from "@/app/utils/auth";
+import { getToken } from "@/utils/auth";
 
 export default function BillingPage() {
   const [loading, setLoading] = useState(false);

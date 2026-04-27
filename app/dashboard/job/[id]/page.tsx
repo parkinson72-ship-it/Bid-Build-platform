@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { getToken } from "@/app/utils/auth";
+import { getToken } from "@/utils/auth";
 
 export default function JobDetailsPage() {
   const { id } = useParams();

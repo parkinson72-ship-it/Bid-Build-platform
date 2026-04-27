@@ -4,10 +4,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { getToken } from "@/utils/auth";
 
-
 export default function MessageThreadPage() {
   const { jobId } = useParams();
-
   const [messages, setMessages] = useState<any[]>([]);
   const [message, setMessage] = useState("");
   const [job, setJob] = useState<any>(null);
